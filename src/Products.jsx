@@ -24,7 +24,8 @@ function Products() {
     }
     fetchData();
   }, []);
-
+  
+  
   const handleImageChange = (e) => {
     setImage(e.target.files[0]);
   };
